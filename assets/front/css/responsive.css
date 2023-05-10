@@ -1,0 +1,699 @@
+/*BOOTSTRAP MEDIA QUERIES*/
+
+@media (min-width: 1200px) {
+    /****************************/
+    /* BASIC SETUP*/
+    /*****************************/
+    html {
+        font-size: 62.5%;
+        /* Font Size 95% out of 100% */
+    }
+    /*****************************/
+    /* REUSABLE COMPONENT*/
+    /*****************************/
+    /*****************************/
+    /* HERO SECTION*/
+    /*****************************/
+    .hero-section img {
+        width: 100%;
+        height: 100%;
+    }
+    /* .carousel-caption {
+        right: 35%;
+        top: 10.5rem;
+        left: 15%;
+    } */
+}
+
+@media (max-width: 1199.98px) {
+    /****************************/
+    /* BASIC SETUP*/
+    /*****************************/
+    html {
+        font-size: 59.375%;
+        /* Font Size 95% out of 100% */
+    }
+    /*****************************/
+    /* REUSABLE COMPONENT*/
+    /*****************************/
+    section {
+        padding: 6rem 0 5rem 0;
+    }
+    .common_margin_bottom {
+        margin-bottom: 5rem;
+    }
+    /* Button */
+    .common-btn {
+        font-weight: 600;
+        /* font-size: 1.3rem; */
+    }
+    /*****************************/
+    /* NAV-BAR SECTION*/
+    /*****************************/
+    nav .navbar-brand img {
+        width: 95%;
+        height: 95%;
+    }
+    nav ul li {
+        margin-right: 1.5rem !important;
+    }
+    /* nav ul li a {
+        font-weight: 600;
+    } */
+    nav {
+        padding-top: 1.5rem !important;
+        padding-bottom: 1.5rem !important;
+    }
+    nav a.common-btn {
+        font-size: 1.5rem;
+        font-weight: 600;
+    }
+    /*****************************/
+    /* HERO SECTION*/
+    /*****************************/
+    .carousel-caption {
+        right: 45%;
+        top: 14rem;
+        left: 14%;
+        z-index: 10;
+        padding-top: 0rem;
+        padding-bottom: 0rem;
+    }
+    .hero-section h2 {
+        font-size: 3.4rem;
+    }
+    .hero-section .carousel-inner .carousel-item .carousel-caption p {
+        line-height: 1.7;
+    }
+    /* .hero-section .carousel-item img {
+        height: 46rem;
+    } */
+    /*****************************/
+    /* TOP-FOOTER SECTION*/
+    /*****************************/
+    .top-footer .fb-page-height-width {
+        border: none;
+        visibility: visible;
+        width: 96% !important;
+        height: 96% !important;
+    }
+}
+
+@media (max-width: 991.98px) {
+    /****************************/
+    /* BASIC SETUP*/
+    /*****************************/
+    html {
+        font-size: 57.5%;
+        /* Font Size 92% out of 100% */
+    }
+    /*****************************/
+    /* REUSABLE COMPONENT*/
+    /*****************************/
+    section {
+        padding: 5rem 0 4rem 0;
+    }
+    .common_margin_bottom {
+        margin-bottom: 4rem;
+    }
+    .footer-divider:before {
+        left: 37%;
+        right: 37%;
+        width: 26%;
+    }
+    /*****************************/
+    /* HEADER SECTION*/
+    /*****************************/
+    .header .container div.l-header-pt {
+        padding-top: .6rem;
+    }
+    .header .container div.r-header-pt {
+        padding-top: .6rem;
+    }
+    .header .header-top-area:before {
+        background: #F26F26;
+        height: 4.2rem;
+        width: 100%;
+        left: 0;
+        transform: skew( 0deg);
+    }
+    .header .header-top-area-shape:after {
+        background: #F26F26;
+        height: 4.2rem;
+        top: 0;
+        left: 0;
+    }
+    .header .header-top-area:after {
+        background: #2375B7;
+        height: 4.2rem;
+        width: 100%;
+        transform: skew( 0deg);
+        right: 0;
+        top: 4.1rem;
+        border-left: none;
+    }
+    .header .header-top-area-shape:before {
+        height: 4.2rem;
+        background: #2375B7;
+        right: 0;
+        top: 4.2rem;
+    }
+    .header .t-left {
+        text-align: center;
+    }
+    .header .t-right {
+        text-align: center;
+    }
+    /*****************************/
+    /* NAV-BAR SECTION*/
+    /*****************************/
+    nav .navbar-brand img {
+        width: 92%;
+        height: 92%;
+    }
+    nav {
+        padding-top: 1.2rem !important;
+        padding-bottom: 1.2rem !important;
+    }
+    nav ul.nav_right {
+        text-align: right;
+    }
+    nav div.btn_right {
+        text-align: right;
+        /* display: flex;
+        align-items: end;
+        justify-content: end; */
+    }
+    nav ul li {
+        margin-right: 0 !important;
+        margin-bottom: 0.5rem !important;
+    }
+    /* for dropdown menu area padding and margin */
+    .dropdown-menu {
+        /* right: 0; */
+        font-size: 1rem;
+        color: #212529;
+        text-align: right;
+        background-color: #fff;
+        border: 1px solid rgba(0, 0, 0, 0.15);
+        padding-left: 0;
+        padding-right: 1.5rem;
+    }
+    /* for dropdown menu a */
+    nav ul li .dropdown-menu a {
+        display: inline-block;
+        /* font-size: 1.4rem;
+        font-weight: 600; */
+        color: #F26F26 !important;
+        transition: all 0.3s;
+        position: relative;
+        text-transform: uppercase;
+        padding: .5rem 0rem .5rem 0 !important;
+        /* padding: 0 !important; */
+        /* margin-bottom: 0.5rem !important; */
+    }
+    /*****************************/
+    /* HERO SECTION*/
+    /*****************************/
+    .carousel-caption {
+        right: 35%;
+        top: 13rem;
+        left: 13.5%;
+    }
+    .hero-section h2 {
+        font-size: 3.2rem;
+    }
+    .hero-section .carousel-inner .carousel-item .carousel-caption p {
+        font-size: 1.4rem;
+        line-height: 1.5;
+    }
+    /* .hero-section .carousel-item img {
+        height: 45rem;
+    } */
+    /*****************************/
+    /* ABOUT SECTION*/
+    /*****************************/
+    .about img {
+        width: 100%;
+        height: 90%;
+    }
+    /*****************************/
+    /* CONTACT SECTION*/
+    /*****************************/
+    /* .contact iframe {
+        height: 40rem !important;
+    } */
+    .contact .col-lg-4 {
+        margin-bottom: 3.5rem;
+    }
+    .contact .card-body p {
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 1.2rem;
+    }
+    .contact .container:nth-child(2) .common_margin_bottom {
+        margin-bottom: 0rem;
+    }
+    .contact .location-height-width {
+        padding-top: 0rem;
+    }
+    .contact div.location-height-width {
+        margin-bottom: 2rem;
+    }
+    .contact p.query {
+        margin-bottom: 1.2rem;
+    }
+    /*****************************/
+    /* CAREER SECTION*/
+    /*****************************/
+    .career .career-designation h5 {
+        text-align: left;
+    }
+    .career .designation-list ul {
+        direction: ltr;
+    }
+    .career .designation-list ul li {
+        margin-left: 1rem;
+        padding-left: 1rem;
+    }
+    .career .designation-list ul li:hover {
+        list-style-type: "→";
+    }
+    .career .container:nth-child(2) .col-lg-6:nth-child(2) {
+        text-align: left;
+        margin-top: 3rem;
+    }
+    /*****************************/
+    /* TOP-FOOTER SECTION*/
+    /*****************************/
+    .top-footer {
+        background-color: #1c2c33 !important;
+        background: linear-gradient(rgba(28, 44, 51, .5), rgba(28, 44, 51, .9)), url(../image/footer/footer-bg2.png) !important;
+    }
+    .top-footer .left-logo-margin {
+        margin-top: 0;
+    }
+    .top-footer .left-5-logo a img {
+        width: 4%;
+        height: 4%;
+    }
+    .top-footer .col-lg-4 {
+        margin-bottom: 4rem;
+    }
+    .top-footer .col-lg-4:nth-child(3) {
+        margin-bottom: 0;
+    }
+    .top-footer .fb-page-height-width {
+        border: none;
+        visibility: visible;
+        width: 100%;
+        height: 100%;
+    }
+    .top-footer .col-lg-4 form {
+        width: 56%;
+        margin: auto;
+    }
+    .top-footer .col-lg-4 .p-hight-width {
+        width: 56%;
+        margin: auto;
+    }
+}
+
+@media (max-width: 767.98px) {
+    /****************************/
+    /* BASIC SETUP*/
+    /*****************************/
+    html {
+        font-size: 56.25%;
+        /* Font Size 90% out of 100% */
+    }
+    /*****************************/
+    /* REUSABLE COMPONENT*/
+    /*****************************/
+    .section-divider h1.left-pad {
+        font-size: 3.6rem;
+    }
+    .common-btn {
+        font-weight: 600;
+        border-radius: .5rem;
+        font-size: 1.2rem;
+    }
+    .footer-divider:before {
+        left: 35%;
+        right: 35%;
+        width: 30%;
+    }
+    /*****************************/
+    /* NAV-BAR SECTION*/
+    /*****************************/
+    nav .navbar-brand img {
+        width: 88%;
+        height: 88%;
+    }
+    /*****************************/
+    /* HERO SECTION*/
+    /*****************************/
+    .carousel-caption {
+        /* right: 40%; */
+        top: 8rem;
+        left: 13.5%;
+        padding-top: 0rem;
+        padding-bottom: 0rem;
+    }
+    .hero-section h2 {
+        font-size: 2.6rem;
+    }
+    .hero-section .carousel-inner .carousel-item .carousel-caption p {
+        font-size: 1.2rem;
+        line-height: 1.4;
+        font-weight: 500;
+    }
+    /* .hero-section .carousel-item img {
+        height: 44rem;
+    } */
+    /*****************************/
+    /* SISTER CONCERN SECTION*/
+    /*****************************/
+    .sister-concern .card .card-body h4 {
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .sister-concern .card .card-body p {
+        text-align: center;
+    }
+    .sister-concern .card .card-body a.btn {
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .sister-concern .card div:nth-child(1) {
+        order: 2;
+    }
+    .sister-concern .card div:nth-child(2) {
+        order: 1;
+    }
+    .sister-concern .card div.image-divider {
+        margin-right: auto;
+        margin-left: auto;
+    }
+    /* .image-divider:before {
+        content: '';
+        width: 0rem;
+        height: 0rem;
+    } */
+    .image-divider:before {
+        content: '';
+        top: 22rem;
+        vertical-align: middle;
+        left: -25%;
+        right: 25%;
+        width: 150%;
+        height: .11rem;
+    }
+    /*****************************/
+    /* CONTACT SECTION*/
+    /*****************************/
+    .contact .card-body p {
+        width: 70%;
+    }
+    /*****************************/
+    /* TOP-FOOTER SECTION*/
+    /*****************************/
+    .top-footer .col-lg-4 {
+        margin-bottom: 3rem;
+    }
+    .top-footer .col-lg-4 form {
+        width: 75%;
+        margin: auto;
+    }
+    .top-footer .col-lg-4 .p-hight-width {
+        width: 75%;
+        margin: auto;
+    }
+}
+
+@media (max-width: 575.98px) {
+    /****************************/
+    /* BASIC SETUP*/
+    /*****************************/
+    html {
+        font-size: 55%;
+    }
+    /*****************************/
+    /* REUSABLE COMPONENT*/
+    /*****************************/
+    .section-divider h1.left-pad {
+        font-size: 3.3rem;
+    }
+    /*****************************/
+    /* NAV-BAR SECTION*/
+    /*****************************/
+    nav .navbar-brand img {
+        width: 83%;
+        height: 83%;
+    }
+    /*****************************/
+    /* HERO SECTION*/
+    /*****************************/
+    /* .carousel-control-prev {
+        left: -3.5rem;
+    }
+    .carousel-control-next {
+        right: -3.5rem;
+    } */
+    .carousel-caption {
+        top: 5.5rem;
+        /* right: 10%;
+        left: 12%; */
+    }
+    .hero-section h2 {
+        font-size: 2.2rem;
+    }
+    .hero-section .carousel-inner .carousel-item .carousel-caption p {
+        /* font-size: 1.1rem;
+        line-height: 1.3; */
+        font-weight: 400;
+    }
+    /* .hero-section .carousel-item img {
+        height: 40rem;
+    } */
+    /*****************************/
+    /* CONTACT SECTION*/
+    /*****************************/
+    .contact iframe {
+        height: 32rem !important;
+    }
+    /*****************************/
+    /* TOP-FOOTER SECTION*/
+    /*****************************/
+    .top-footer .col-lg-4 .p-hight-width {
+        width: 60%;
+        margin: auto;
+    }
+    .top-footer .fb-page-height-width {
+        width: 37rem !important;
+        height: 13rem !important;
+        margin: 0 auto !important;
+    }
+    .top-footer .col-lg-4 form {
+        width: 60%;
+        margin: auto;
+    }
+}
+
+@media (max-width: 480.98px) {
+    /****************************/
+    /* BASIC SETUP*/
+    /*****************************/
+    html {
+        font-size: 53.75%;
+    }
+    /*****************************/
+    /* REUSABLE COMPONENT*/
+    /*****************************/
+    .footer-divider:before {
+        left: 33%;
+        right: 33%;
+        width: 34%;
+    }
+    /*****************************/
+    /* NAV-BAR SECTION*/
+    /*****************************/
+    nav .navbar-brand img {
+        width: 80%;
+        height: 80%;
+    }
+    /*****************************/
+    /* HERO SECTION*/
+    /*****************************/
+    /* .carousel-control-prev {
+        left: -3.5rem;
+    }
+    .carousel-control-next {
+        right: -3.5rem;
+    } */
+    .carousel-caption {
+        top: 4.8rem;
+        /* right: 10%;
+        left: 12%; */
+    }
+    .hero-section h2 {
+        font-size: 1.8rem;
+    }
+    .hero-section .carousel-inner .carousel-item .carousel-caption p {
+        font-size: 1.1rem;
+        line-height: 1.2;
+    }
+    /* .hero-section .carousel-item img {
+        height: 40rem;
+    } */
+    /*****************************/
+    /* CONTACT SECTION*/
+    /*****************************/
+    .contact iframe {
+        height: 28rem !important;
+    }
+    .contact .card-body p {
+        width: 80%;
+    }
+    /*****************************/
+    /* TOP-FOOTER SECTION*/
+    /*****************************/
+    .top-footer .col-lg-4 .p-hight-width {
+        width: 65%;
+        margin: auto;
+        line-height: 1.6;
+    }
+    .top-footer .fb-page-height-width {
+        border: none;
+        visibility: visible;
+        width: 34rem !important;
+        height: 12rem !important;
+    }
+    .top-footer .col-lg-4 form {
+        width: 65%;
+        margin: auto;
+    }
+}
+
+@media (max-width: 334.98px) {
+    /****************************/
+    /* BASIC SETUP*/
+    /*****************************/
+    html {
+        font-size: 51.875%;
+    }
+    /*****************************/
+    /* REUSABLE COMPONENT*/
+    /*****************************/
+    .footer-divider:before {
+        left: 26%;
+        right: 26%;
+        width: 48%;
+    }
+    /*****************************/
+    /* NAV-BAR SECTION*/
+    /*****************************/
+    nav .navbar-brand img {
+        width: 75%;
+        height: 75%;
+    }
+    nav ul.nav_right {
+        text-align: left;
+    }
+    nav div.btn_right {
+        text-align: left;
+    }
+    .dropdown-menu {
+        /* left: 0; */
+        text-align: left;
+        padding-left: 1.4rem;
+        padding-right: 0;
+    }
+    /*****************************/
+    /* HERO SECTION*/
+    /*****************************/
+    /* .carousel-control-prev {
+        left: -3.5rem;
+    }
+    .carousel-control-next {
+        right: -3.5rem;
+    } */
+    .carousel-caption {
+        top: 3rem;
+        right: 20%;
+        /* left: 12%; */
+    }
+    .hero-section h2 {
+        font-size: 1.4rem;
+    }
+    .hero-section .carousel-inner .carousel-item .carousel-caption p {
+        font-size: .8rem;
+        line-height: 1.2;
+    }
+    /* .hero-section .carousel-item img {
+        height: 40rem;
+    } */
+    /*****************************/
+    /* CONTACT SECTION*/
+    /*****************************/
+    .contact .card-body p {
+        width: 100%;
+    }
+    /*****************************/
+    /* TOP-FOOTER SECTION*/
+    /*****************************/
+    .top-footer .col-lg-4 form {
+        width: 85%;
+        margin: auto;
+    }
+    .top-footer .col-lg-4 .p-hight-width {
+        width: 85%;
+        margin: auto;
+    }
+    .top-footer .col-lg-4 .p-hight-width {
+        line-height: 1.4;
+    }
+    .top-footer .fb-page-height-width {
+        border: none;
+        visibility: visible;
+        width: 30rem !important;
+        height: 12rem !important;
+    }
+}
+
+@media (max-width: 280.98px) {
+    /****************************/
+    /* BASIC SETUP*/
+    /*****************************/
+    html {
+        font-size: 51%;
+    }
+    /*****************************/
+    /* NAV-BAR SECTION*/
+    /*****************************/
+    nav .navbar-brand img {
+        width: 70%;
+        height: 70%;
+    }
+    /*****************************/
+    /* TOP-FOOTER SECTION*/
+    /*****************************/
+    .top-footer .col-lg-4 form {
+        width: 90%;
+        margin: auto;
+    }
+    .top-footer .col-lg-4 .p-hight-width {
+        width: 90%;
+        margin: auto;
+    }
+    .top-footer .col-lg-4 .p-hight-width {
+        line-height: 1.2;
+    }
+    .top-footer .fb-page-height-width {
+        border: none;
+        visibility: visible;
+        width: 27rem !important;
+        height: 11rem !important;
+    }
+}
